@@ -18,6 +18,15 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.15.4",
-    "mongoose": "^5.0.15"
-  }
+    "mongoose": "^5.0.17"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikPlimmer/PediaPedia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ErikPlimmer/PediaPedia/issues"
+  },
+  "homepage": "https://github.com/ErikPlimmer/PediaPedia#readme"
 }
