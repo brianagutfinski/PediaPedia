@@ -1,10 +1,17 @@
-import React from 'react';
+import React, {Component} from 'react';
+import {BrowserRouter as Router, Route} from "react-router-dom";
+import Home from "./components/Home";
+import Baby from "./components/Baby";
+import Child from "./components/Child";
+import Toddlers from "./components/Toddlers";
 import './App.css';
 
 class App extends React.Component {
   render() {
     return (
+      <Router>
       <div className="App">
+<<<<<<< HEAD
         <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
 
 <h3 class="content-subhead">
@@ -17,8 +24,13 @@ class App extends React.Component {
   goal is to match them with the perfect person!
 </p>
 </div>
+=======
+        <Route exact="exact" path="/" component={Home}/>
+        <Route exact="exact" path="/Baby" component={Baby}/>
+>>>>>>> cacff55237965b520fc6dd9ea2e15b20b5ae121e
       </div>
-    );
+    </Router>
+  );
   }
 }
 
