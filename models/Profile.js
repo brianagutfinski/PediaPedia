@@ -3,20 +3,17 @@ const mongoose = require("mongoose");
 const profileSchema = new mongoose.Schema({
     firstName: {
         type: String,
-        required: true
+        required: false
     },
     lastName: {
         type: String,
-        require: true
+        require: false
     },
-    email: {
-        type: String,
-        require: true
+    username: { 
+        type: String, required: true, index: { unique: true } 
     },
-    password: {
-        type: String,
-        require: true
-    }
+    password: { 
+        type: String, required: true }
 });
 
 module.exports = mongoose.model("Article", articleSchema);
