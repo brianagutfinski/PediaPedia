@@ -6,18 +6,19 @@ class Home extends React.Component {
   render() {
     return (
       <div className="App"><div class="pure-menu pure-menu-horizontal">
-          <a href="/" class="pure-menu-heading">Your Logo</a>
+          <a href="/" class="pure-menu-heading">PediaPedia</a>
           <ul class="pure-menu-list">
-              <li class="pure-menu-item"><a href="/Baby" class="pure-menu-link">Home</a></li>
-              <li class="pure-menu-item pure-menu-selected"><a href="/Toddlers" class="pure-menu-link">Pricing</a></li>
-              <li class="pure-menu-item"><a href="/Child" class="pure-menu-link">Contact</a></li>
+              <li class="pure-menu-item"><a href="/Baby" class="pure-menu-link">Baby</a></li>
+              <li class="pure-menu-item pure-menu-selected"><a href="/Toddlers" class="pure-menu-link">Toddlers</a></li>
+              <li class="pure-menu-item"><a href="/Child" class="pure-menu-link">Child</a></li>
+
+
           </ul>
       </div>
 
       <div class="banner">
           <h1 class="banner-head">
-              Simple Pricing.
-              Try before you buy.
+              Enter a catchy phrase here.
           </h1>
       </div>
 
@@ -26,10 +27,9 @@ class Home extends React.Component {
               <div class="pure-u-1 pure-u-md-1-3">
                   <div class="pricing-table pricing-table-free">
                       <div class="pricing-table-header">
-                          <h2>Personal</h2>
 
                           <span class="pricing-table-price">
-                              $5 <span>per month</span>
+                            Baby
                           </span>
                       </div>
 
@@ -49,10 +49,9 @@ class Home extends React.Component {
               <div class="pure-u-1 pure-u-md-1-3">
                   <div class="pricing-table pricing-table-biz pricing-table-selected">
                       <div class="pricing-table-header">
-                          <h2>Small Business</h2>
 
                           <span class="pricing-table-price">
-                              $25 <span>per month</span>
+                              Toddler
                           </span>
                       </div>
 
@@ -72,10 +71,9 @@ class Home extends React.Component {
               <div class="pure-u-1 pure-u-md-1-3">
                   <div class="pricing-table pricing-table-enterprise">
                       <div class="pricing-table-header">
-                          <h2>Enterprise</h2>
 
                           <span class="pricing-table-price">
-                              $45 <span>per month</span>
+                              Child
                           </span>
                       </div>
 
