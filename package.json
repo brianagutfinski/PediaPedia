@@ -17,8 +17,14 @@
   },
   "dependencies": {
     "body-parser": "^1.18.2",
+<<<<<<< HEAD
     "express": "^4.16.3",
     "mongoose": "^5.0.17"
+=======
+    "express": "^4.15.4",
+    "mongoose": "^5.0.17",
+    "reactstrap": "^6.0.1"
+>>>>>>> f58c15d55030ee6679c2a9b8807e660ccd77c0a1
   },
   "description": "",
   "repository": {

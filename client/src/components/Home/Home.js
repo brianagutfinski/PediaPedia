@@ -1,145 +1,144 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import "./pricing.css";
 
 class Home extends React.Component {
   render() {
-    return (
-      <div className="App"><div class="pure-menu pure-menu-horizontal">
-          <Link to="/" class="pure-menu-heading">Your Logo</Link>
-          <ul class="pure-menu-list">
-              <li class="pure-menu-item"><Link to="/Baby" class="pure-menu-link">Home</Link></li>
-              <li class="pure-menu-item pure-menu-selected"><Link to="/Toddlers" class="pure-menu-link">Pricing</Link></li>
-              <li class="pure-menu-item"><Link to="/Child" class="pure-menu-link">Contact</Link></li>
-          </ul>
+    return (<div className="App">
+      <div class="pure-menu pure-menu-horizontal">
+
+        <Link to="/" class="pure-menu-heading">PediaPedia</Link>
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item">
+            <Link to="/Baby" class="pure-menu-link">Baby</Link>
+          </li>
+          <li class="pure-menu-item pure-menu-selected">
+            <Link to="/Toddlers" class="pure-menu-link">Toddlers</Link>
+          </li>
+          <li class="pure-menu-item">
+            <Link to="/Child" class="pure-menu-link">Child</Link>
+          </li>
+        </ul>
       </div>
 
       <div class="banner">
-          <h1 class="banner-head">
-              Simple Pricing.
-              Try before you buy.
-          </h1>
+        <h1 class="banner-head">
+          Enter a catchy phrase here.
+        </h1>
       </div>
 
       <div class="l-content">
-          <div class="pricing-tables pure-g">
-              <div class="pure-u-1 pure-u-md-1-3">
-                  <div class="pricing-table pricing-table-free">
-                      <div class="pricing-table-header">
-                          <h2>Personal</h2>
+        <div class="pricing-tables pure-g">
+          <div class="pure-u-1 pure-u-md-1-3">
+            <div class="pricing-table pricing-table-free">
+              <div class="pricing-table-header">
 
-                          <span class="pricing-table-price">
-                              $5 <span>per month</span>
-                          </span>
-                      </div>
-
-                      <ul class="pricing-table-list">
-                          <li>Free setup</li>
-                          <li>Custom sub-domain</li>
-                          <li>Standard customer support</li>
-                          <li>file storage</li>
-                          <li>1 database</li>
-                          <li>Unlimited bandwidth</li>
-                      </ul>
-
-                      <button class="button-choose pure-button">Choose</button>
-                  </div>
+                <span class="pricing-table-price">
+                  Baby
+                </span>
               </div>
 
-              <div class="pure-u-1 pure-u-md-1-3">
-                  <div class="pricing-table pricing-table-biz pricing-table-selected">
-                      <div class="pricing-table-header">
-                          <h2>Small Business</h2>
+              <ul class="pricing-table-list">
+                <li>Baby Topic 1</li>
+                <li>Baby Topic 2</li>
+                <li>Baby Topic 3</li>
+                <li>Baby Topic 4</li>
+                <li>Baby Topic 5</li>
+                <li>Baby Topic 6</li>
+              </ul>
 
-                          <span class="pricing-table-price">
-                              $25 <span>per month</span>
-                          </span>
-                      </div>
-
-                      <ul class="pricing-table-list">
-                          <li>Free setup</li>
-                          <li>Use your own domain</li>
-                          <li>Standard customer support</li>
-                          <li>file storage</li>
-                          <li>5 databases</li>
-                          <li>Unlimited bandwidth</li>
-                      </ul>
-
-                      <button class="button-choose pure-button">Choose</button>
-                  </div>
-              </div>
-
-              <div class="pure-u-1 pure-u-md-1-3">
-                  <div class="pricing-table pricing-table-enterprise">
-                      <div class="pricing-table-header">
-                          <h2>Enterprise</h2>
-
-                          <span class="pricing-table-price">
-                              $45 <span>per month</span>
-                          </span>
-                      </div>
-
-                      <ul class="pricing-table-list">
-                          <li>Free setup</li>
-                          <li>Use your own domain</li>
-                          <li>Premium customer support</li>
-                          <li>Unlimited file storage</li>
-                          <li>25 databases</li>
-                          <li>Unlimited bandwidth</li>
-                      </ul>
-
-                      <button class="button-choose pure-button">Choose</button>
-                  </div>
-              </div>
+              <button class="button-choose pure-button"><Link to="/Baby">Go to Baby</Link></button>
+            </div>
           </div>
 
-          <div class="information pure-g">
-              <div class="pure-u-1 pure-u-md-1-2">
-                  <div class="l-box">
-                      <h3 class="information-head">Get started today</h3>
-                      <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-                      </p>
-                  </div>
+          <div class="pure-u-1 pure-u-md-1-3">
+            <div class="pricing-table pricing-table-biz pricing-table-selected">
+              <div class="pricing-table-header">
+
+                <span class="pricing-table-price">
+                  Toddler
+                </span>
               </div>
 
-              <div class="pure-u-1 pure-u-md-1-2">
-                  <div class="l-box">
-                      <h3 class="information-head">Pay monthly or annually</h3>
-                      <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
-                      </p>
-                  </div>
-              </div>
+              <ul class="pricing-table-list">
+                <li>Toddler Topic 1</li>
+                <li>Toddler Topic 2</li>
+                <li>Toddler Topic 3</li>
+                <li>Toddler Topic 4</li>
+                <li>Toddler Topic 5</li>
+                <li>Toddler Topic 6</li>
+              </ul>
 
-              <div class="pure-u-1 pure-u-md-1-2">
-                  <div class="l-box">
-                      <h3 class="information-head">24/7 customer support</h3>
-                      <p>
-                          Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      </p>
-                  </div>
-              </div>
-
-              <div class="pure-u-1 pure-u-md-1-2">
-                  <div class="l-box">
-                      <h3 class="information-head">Cancel your plan anytime</h3>
-                      <p>
-                          Duis aute irure dolor in reprehenderit in voluptate velit esse
-                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
-                  </div>
-              </div>
+              <button class="button-choose pure-button"><Link to="/Toddlers">Go to Toddlers</Link></button>
+            </div>
           </div>
+
+          <div class="pure-u-1 pure-u-md-1-3">
+            <div class="pricing-table pricing-table-enterprise">
+              <div class="pricing-table-header">
+
+                <span class="pricing-table-price">
+                  Child
+                </span>
+              </div>
+
+              <ul class="pricing-table-list">
+                <li>Child Topic 1</li>
+                <li>Child Topic 2</li>
+                <li>Child Topic 3</li>
+                <li>Child Topic 4</li>
+                <li>Child Topic 5</li>
+                <li>Child Topic 6</li>
+              </ul>
+
+              <button class="button-choose pure-button">  <Link to="/Child" class="pure-menu-link">Go to Child</Link></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="information pure-g">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <div class="l-box">
+              <h3 class="information-head">Section Title</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+              </p>
+            </div>
+          </div>
+
+          <div class="pure-u-1 pure-u-md-1-2">
+            <div class="l-box">
+              <h3 class="information-head">Section 2 Title</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+              </p>
+            </div>
+          </div>
+
+          <div class="pure-u-1 pure-u-md-1-2">
+            <div class="l-box">
+              <h3 class="information-head">Section 3 Title</h3>
+              <p>
+                Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+
+          <div class="pure-u-1 pure-u-md-1-2">
+            <div class="l-box">
+              <h3 class="information-head">Section 4 Title</h3>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="footer l-box">
-          <p>
-
-          </p>
-      </div></div>
-    );
+        <p></p>
+      </div>
+    </div>);
   }
 }
 
